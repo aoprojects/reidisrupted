@@ -1,4 +1,4 @@
-class NewsController < ActionController::Base
+class DisruptionController < ActionController::Base
 
 def index
 	
