@@ -1,14 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Reidistrupted</title>
+  <title>Real Estate Investing Distrupted</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 
+ <%= render 'layous/nav' %>
+
 <%= yield %>
+
+ <%= render 'layouts/footer' %>
 
 </body>
 </html>
