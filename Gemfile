@@ -26,8 +26,10 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
+# required for bootstrap version 4
+gem 'sprockets-rails', :require => 'sprockets/railtie'
 
-gem 'bootstrap-sass'
+gem 'bootstrap', '~> 4.0.0.alpha3'
 
 gem 'will_paginate', '~> 3.0.6'
 
